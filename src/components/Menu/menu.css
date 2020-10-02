@@ -1,0 +1,26 @@
+.menu {
+    height: 3rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.menu__timer {
+    font-size: 2rem;
+    margin-right: 5rem;
+}
+
+.menu__button {
+    height: 70%;
+    margin-left: 5rem;
+}
+
+.menu__button--disabled {
+    height: 70%;
+    margin-left: 5rem;
+    cursor: not-allowed;
+    pointer-events: none;
+}

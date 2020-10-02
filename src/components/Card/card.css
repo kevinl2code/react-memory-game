@@ -1,0 +1,25 @@
+.memory-card {
+    display: inline-block;
+    border-width: .5rem;
+    margin: .1rem .2rem 0 .2rem;
+}
+
+.memory-card__selected {
+    display: inline-block;
+    border-width: .5rem;
+    margin: .1rem .2rem 0 .2rem;
+    pointer-events: none;
+}
+
+.memory-card__matched {
+    display: inline-block;
+    border-width: .5rem;
+    margin: .1rem .2rem 0 .2rem;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.memory-card__image {
+    height: 11rem;
+    width: 20rem;
+}

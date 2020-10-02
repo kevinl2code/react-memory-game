@@ -1,0 +1,7 @@
+.game-area {
+    /* background-color: crimson; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
